@@ -29,8 +29,29 @@ table {
     border-collapse: collapse;
 }
 
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e495e4
+    
+    ;
+}
+
 td, th {
     border: 1px solid #eee;
     padding: 15px;
 }
+
+div {
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    overflow: scroll;
+    background-color: #d260c5;
+    width: 200px;
+    height: 200px;
+}
+
+
 
